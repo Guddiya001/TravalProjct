@@ -1,0 +1,156 @@
+{
+  "rootFolder": ".",
+  "analyzedAt": "2026-07-13T16:05:37.028Z",
+  "rootStructure": [
+    {
+      "name": "node_modules",
+      "type": "dir"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "size": 86283,
+      "lines": 2534
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "size": 538,
+      "lines": 26
+    },
+    {
+      "name": "src",
+      "type": "dir"
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "size": 258,
+      "lines": 12
+    }
+  ],
+  "rootFileSnippets": {
+    "package-lock.json": [
+      "{",
+      "\"name\": \"travalprojct\",",
+      "\"version\": \"1.0.0\",",
+      "\"lockfileVersion\": 3,",
+      "\"requires\": true,",
+      "\"packages\": {",
+      "\"\": {",
+      "\"name\": \"travalprojct\",",
+      "\"version\": \"1.0.0\",",
+      "\"license\": \"ISC\","
+    ],
+    "package.json": [
+      "{",
+      "\"name\": \"travalprojct\",",
+      "\"version\": \"1.0.0\",",
+      "\"description\": \"\",",
+      "\"main\": \"index.js\",",
+      "\"scripts\": {",
+      "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"",
+      "},",
+      "\"keywords\": [],",
+      "\"author\": \"\","
+    ],
+    "tsconfig.json": [
+      "{",
+      "\"compilerOptions\": {",
+      "\"target\": \"ES2022\",",
+      "\"module\": \"NodeNext\",",
+      "\"moduleResolution\": \"NodeNext\",",
+      "\"strict\": true,",
+      "\"skipLibCheck\": true,",
+      "\"forceConsistentCasingInFileNames\": true,",
+      "\"outDir\": \"./dist\"",
+      "},"
+    ]
+  },
+  "importantFolders": [],
+  "readmeParagraphs": {},
+  "totals": {
+    "numFiles": 6,
+    "numDirs": 2,
+    "totalSizeBytes": 92546,
+    "totalLinesOfCode": 158
+  },
+  "fileCategories": {
+    "other": 1,
+    "config": 3,
+    "source": 2
+  },
+  "linesOfCodePerLanguage": {
+    "TypeScript": 158
+  },
+  "filesPerLanguage": {
+    "TypeScript": 2
+  },
+  "projectTypes": [
+    "JavaScript/Node.js"
+  ],
+  "frameworks": [],
+  "entryPoints": [],
+  "ciCdTools": [],
+  "packageManagers": [
+    "npm/yarn"
+  ],
+  "topLevelDirectories": [
+    {
+      "name": "src",
+      "numFiles": 2,
+      "totalLoc": 158,
+      "dominantLanguage": "TypeScript"
+    }
+  ],
+  "detailedDirectories": [
+    {
+      "path": "src",
+      "name": "src",
+      "level": 1,
+      "numFiles": 2,
+      "totalLoc": 158,
+      "dominantLanguage": "TypeScript",
+      "category": "General",
+      "description": "General module with 2 files (TypeScript)",
+      "subdirectories": []
+    }
+  ],
+  "architecturalInsights": {
+    "coreApplications": [],
+    "entryPointDetails": [],
+    "serviceArchitecture": {
+      "microservices": [],
+      "monoliths": [],
+      "libraries": []
+    },
+    "layeredArchitecture": {
+      "presentation": [],
+      "business": [],
+      "data": [],
+      "infrastructure": []
+    }
+  },
+  "largeFiles": [],
+  "dependencies": {
+    "production": [
+      "@google/genai",
+      "@modelcontextprotocol/sdk",
+      "dotenv",
+      "zod",
+      "zod-to-json-schema"
+    ],
+    "development": [
+      "@types/node",
+      "tsx",
+      "typescript"
+    ],
+    "total": 8
+  },
+  "complexity": {
+    "averageFileSize": 26.333333333333332,
+    "maxFileSize": 0,
+    "nestedDepth": 0,
+    "estimatedComplexity": "low"
+  }
+}
